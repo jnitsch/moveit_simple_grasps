@@ -52,7 +52,7 @@ namespace moveit_simple_grasps
 {
 GraspData::GraspData() :
   // Fill in default values where possible:
-  base_link_("/base_link"),
+  base_link_("/base"),
   grasp_depth_(0.12),
   angle_resolution_(16),
   approach_retreat_desired_dist_(0.6),
